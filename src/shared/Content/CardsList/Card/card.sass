@@ -1,0 +1,17 @@
+.card
+  margin-bottom: 20px
+  background-color: #ffffff
+  border-radius: 7px
+  display: flex
+  flex-flow: row wrap
+  position: relative
+  &:hover h2 a, &:focus-within h2 a
+    color: #cc6633
+  @media all and (min-width: 1024px)
+    flex-flow: row nowrap
+    margin: 0
+    padding: 20px 37px 20px 40px
+  & > *
+    flex: 1 1 100%
+    @media all and (min-width: 1024px)
+      flex: 0 1 auto
